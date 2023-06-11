@@ -5,6 +5,8 @@
 tasks:
   - name: Setup & Build
     init: mvn install -DskipTests=true
+  - name: Start Up Docker Compose
+    init: docker-compose up -d control-center
 vscode:
   extensions:
     - "vscjava.vscode-java-pack"
