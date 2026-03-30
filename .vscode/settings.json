@@ -1,16 +1,13 @@
 {
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/*.crswap": true,
-        ".eclipse": false,
-        ".git": false,
-        "lab_book": false,
-        "src": false,
-        "target": false
+  "java.jdt.ls.java.home": "/home/vscode/.sdkman/candidates/java/current",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/home/vscode/.sdkman/candidates/java/current"
     }
+  ],
+  "docker.dockerPath": "/usr/bin/docker",
+  "docker.showExplorer": true,
+  "containers.containerCommand": "/usr/bin/docker",
+  "extensions.ignoreRecommendations": true
 }
